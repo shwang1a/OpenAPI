@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  webapi1:
+    image: shwang1a/webapi1
+    build:
+      context: ./WebApi1
+      dockerfile: Dockerfile
+    ports:
+       - "5001:5001"
+
+  console:
+    depends_on:
+       - webapi1
+    image: shwang1a/client-image
+    build:
+      context: ./Client
+      dockerfile: Dockerfile
+    environment:
+      WebApi1Url: "http://webapi1"

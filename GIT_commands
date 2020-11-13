@@ -1,0 +1,10 @@
+
+GIT commands
+----------------------------------------
+git clone https://github.com/shwang1a/OpenAPI.git
+git config --global core.editor "gedit -w"
+
+git add --all	#stage change
+git commit
+git push
+
