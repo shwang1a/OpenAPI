@@ -25,7 +25,7 @@ console testing
 -----------------------
 $dotnet build<br />
 $docker build -t client-image -f Dockerfile .<br />
-$docker run client-image --env WebApi1Url=http://{webapi1_ip_addr}<br />
+$docker run --env WebApi1Url=http://{webapi1_ip_addr} client-image<br />
 
 Part 3. Docker-compose
 =========================================
