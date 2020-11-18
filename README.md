@@ -37,7 +37,7 @@ $docker-compose down<br />
 
 PS. If any project source modified, need to rebuild the source as follow:<br />
     $dotnet build<br />
-    $dotnet publish -c Release)<br />
+    $dotnet publish -c Release<br />
 
 Part 4. Publish Application
 =========================================
