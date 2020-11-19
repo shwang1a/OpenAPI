@@ -10,9 +10,10 @@ https://marketplace.visualstudio.com/items?itemName=forevolve.git-extensions-for
 https://marketplace.visualstudio.com/items?itemName=boukichi.git-exclude
 
 3.click Source Control on Left pane
-  Changes
+  select Changes Tab
   press + for Stage change
   press F1 , Git:Commit
+  select BRANCHES Tab
   press F1 , Git:Push
 
 
@@ -26,5 +27,4 @@ git remote set-url origin https://<<username>>:<<password>>@github.com/shwang1a/
 git add filename	#stage change
 git commit
 git push
-test
 
