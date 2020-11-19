@@ -10,11 +10,10 @@ https://marketplace.visualstudio.com/items?itemName=forevolve.git-extensions-for
 https://marketplace.visualstudio.com/items?itemName=boukichi.git-exclude
 
 3.click Source Control on Left pane
-  select Changes Tab
+  Select Changes Tab
   press + for Stage change
   press F1 , Git:Commit
-  select BRANCHES Tab
-  press F1 , Git:Push
+  press F1 , Git:Push /  Select BRANCHES Tab, then select top Arrow, Push
 
 
 GIT commands
