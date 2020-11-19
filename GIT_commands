@@ -26,4 +26,5 @@ git remote set-url origin https://<<username>>:<<password>>@github.com/shwang1a/
 git add filename	#stage change
 git commit
 git push
+test
 
