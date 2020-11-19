@@ -12,7 +12,8 @@ https://marketplace.visualstudio.com/items?itemName=boukichi.git-exclude
 3.click Source Control on Left pane
   Changes
   Stage change
-  
+  press F1 , Git:Commit
+  press F1 , Git:Push
 
 
 GIT commands
@@ -20,7 +21,9 @@ GIT commands
 git clone https://github.com/shwang1a/OpenAPI.git
 git config --global core.editor "gedit -w"
 
-git add --all	#stage change
+git config --global user.email "shwang1a@hotmail.com"
+
+git add filename	#stage change
 git commit
 git push
 
