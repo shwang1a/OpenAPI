@@ -1,4 +1,19 @@
 
+VSCODE
+1. install git extension
+https://marketplace.visualstudio.com/items?itemName=forevolve.git-extensions-for-vs-code
+
+1.1 press Ctrl+ P
+1.2 ext install forevolve.git-extensions-for-vs-code
+
+2. install git exclude
+https://marketplace.visualstudio.com/items?itemName=boukichi.git-exclude
+
+3.click Source Control on Left pane
+  Changes
+  Stage change
+
+
 GIT commands
 ----------------------------------------
 git clone https://github.com/shwang1a/OpenAPI.git
