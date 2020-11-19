@@ -13,7 +13,7 @@ https://marketplace.visualstudio.com/items?itemName=boukichi.git-exclude
   Select Changes Tab
   press + for Stage change
   press F1 , Git:Commit
-  press F1 , Git:Push /  Select BRANCHES Tab, then select top Arrow, Push
+  press F1 , Git:Push /  Select Commits Tab, then select top Arrow, Push
 
 
 GIT commands
