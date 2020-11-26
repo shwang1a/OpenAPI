@@ -22,6 +22,7 @@ git clone https://github.com/shwang1a/OpenAPI.git
 git config --global core.editor "gedit -w"
 
 git remote set-url origin https://<<username>>:<<password>>@github.com/shwang1a/OpenAPI.git
+git remote -v
 
 git add filename	#stage change
 git commit
