@@ -46,7 +46,7 @@ Part 4. Publish Application
 $mkdir images<br />
 $docker save -o images/OpenAPI.tar shwang1a/webapi1 shwang1a/client-image<br />
 
-Part 5. Deploy Application on the machine
+Part 5. Deploy Application to other machine
 ==========================================
 1.New app folder,then copy docker-compose-deploy.yml<br />
 2.(Optional)offline<br />
