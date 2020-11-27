@@ -39,21 +39,27 @@ PS. If any project source modified, need to rebuild the source as follow:<br />
     $dotnet build<br />
     $dotnet publish -c Release<br />
 
-Part 4. Publish Application
+Part 4. (離線)Publish & Deploy Application
 =========================================
 1.create docker-compose-deploy.yml<br />
 2.<br />
 $mkdir images<br />
 $docker save -o images/OpenAPI.tar shwang1a/webapi1 shwang1a/client-image<br />
 
-Part 5. Deploy Application to other machine
-==========================================
+other Machine
 1.New app folder,then copy docker-compose-deploy.yml<br />
-2.(Optional)offline<br />
- 2.1 New app/images folder, then Copy OpenAPI.tar into app/images folder<br />
- 2.2 $docker load -i images/OpenAPI.tar<br />
+2.New app/images folder, then Copy OpenAPI.tar into app/images folder<br />
+3.$docker load -i images/OpenAPI.tar<br />
 3.$docker-compose -f docker-compose-deploy.yml up<br />
 
+Part 5. (線上)Publish & Deploy Application
+==========================================
+1.create docker-compose-deploy.yml<br />
+2.$docker push shwang1a/webapi1<br />
+3.$docker push shwang1a/client-image<br />
 
+other Machine
+1.New app folder,then copy docker-compose-deploy.yml<br />
+2.$docker-compose -f docker-compose-deploy.yml up<br />
 
 
