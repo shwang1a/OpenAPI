@@ -48,8 +48,8 @@ $docker save -o images/OpenAPI.tar shwang1a/webapi1 shwang1a/client-image<br />
 
 Part 5. Deploy Application on the machine
 ==========================================
-1.create new folder, copy docker-compose-deploy.yml & images into the folder 
-$docker load -i images/OpenAPI.tar
+1.create new folder, copy docker-compose-deploy.yml & images into the folder <br />
+$docker load -i images/OpenAPI.tar<br />
 $docker-compose -f docker-compose-deploy.yml up<br />
 
 
