@@ -10,10 +10,12 @@ https://marketplace.visualstudio.com/items?itemName=forevolve.git-extensions-for
 https://marketplace.visualstudio.com/items?itemName=boukichi.git-exclude
 
 3.click Source Control on Left pane
-  Select Changes Tab
-  press + for Stage change
-  press F1 , Git:Commit
-  press F1 , Git:Push /  Select Commits Tab, then select top Arrow, Push
+  3.1 add file/folder to Exclude (file)
+    From prject, select bin,obj,.. folder,click contextMenu select GitExclude:Append current file/folder to exclude file
+  3.2 Select Changes Tab
+    press + for Stage change
+    press F1 , Git:Commit
+    press F1 , Git:Push /  Select Commits Tab, then select top Arrow, Push
 
 
 A new repo from an existing project
